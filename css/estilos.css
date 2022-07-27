@@ -1,0 +1,341 @@
+
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-weight: bold;
+}
+
+
+
+.altura-a-b{
+    padding: 100px 0;
+}
+
+/*Header*/
+.logotipo{
+    width: 60px;
+    padding: 0px;
+}
+
+.navbar-nav a{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 10px;
+}
+
+.iconos-redes{
+    font-size: 30px;
+    color: white;
+    margin: 10px 10px;
+    transition: all 0.7s;
+}
+.iconos-redes:hover{
+    color: #ec731e;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.7s;
+}
+
+/*Index*/
+.carousel-caption {
+    position: absolute;
+    top: 25%;
+    bottom: 25px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 750px;
+}
+
+.carousel-inner h1{
+    color: orange;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px white;
+}
+.carousel-inner h2{
+    color: orange;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px white;
+
+}
+.carousel-inner p{
+    font-size: 25px;
+    background-color: #ffa50066;
+}
+.boton-carrusel {
+    color: #f8f9fa;
+    background-color: #ffa50000;
+    border-color: #f8f9fa;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+
+.banner-galeria{
+    width: 360px;
+    height: auto;
+    border: 3px solid orange;
+    
+}
+.banner-galeria:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+}
+
+main h5{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 10px 0;
+}
+main p{
+    font-size: 18px;
+}
+
+.boton-menu{
+    color: white;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+
+
+
+/*Nosotros*/
+.cabecera-nosotros{
+    padding: 134px 0 240px 0;
+    background-image: url(../img/15.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-top: 30px;
+}
+.cabecera-nosotros h1{
+    color: orange;
+    font-size: 60px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.356);
+    text-shadow: 0 0 5px black;
+}
+
+.imagen-quienes{
+    border: 3px solid orange;
+    border-radius: 30px;
+}
+.nosotros-menu{
+    text-align: center;
+}
+.nosotros-menu h2{
+    background-color: orange;
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 15px;
+    margin-top: 20px;
+    text-shadow: 0 0 5px black;
+
+}
+.nosotros-menu .nombres{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.nosotros-menu p{
+    font-size: 27px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+/*Catalogo*/
+.cabecera-catalogo{
+    padding: 134px 0 240px 0;
+    background-image: url(../img/16.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-top: 30px;
+}
+.cabecera-catalogo h1{
+    color: orange;
+    font-size: 60px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.356);
+    text-shadow: 0 0 5px black;
+}
+.titulo-catalogo{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    background-color: #ffa600b4;
+    text-shadow: 0 0 5px black;
+}
+.imagen-catalogo{
+    border: 3px solid orange;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.imagen-catalogo:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px black;
+}
+.boton-catalogo{
+    text-align: center;
+}
+.boton-catalogo a{
+    margin-top: 25px;
+    color: white;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+/*Galeria*/
+.cabecera-galeria{
+    padding: 134px 0 240px 0;
+    background-image: url(../img/4.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-top: 30px;
+}
+.cabecera-galeria h1{
+    color: orange;
+    font-size: 60px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.356);
+    text-shadow: 0 0 5px black;
+}
+.titulo-galeria{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    background-color: #ffa600b4;
+    text-shadow: 0 0 5px black;
+}
+.imagen-galeria{
+    border: 3px solid orange;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.imagen-galeria:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px black;
+}
+
+
+
+/*Contacto*/
+.cabecera-contacto{
+    padding: 134px 0 240px 0;
+    background-image: url(../img/7.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+.cabecera-contacto h1{
+    color: orange;
+    font-size: 60px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.356);
+    text-shadow: 0 0 5px black;
+}
+.form-group{
+    font-size: 25px;
+}
+.contacto button{
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 10px;
+}
+.contacto h2{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: #ffa600b4;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px black;
+}
+.ubicacion{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ubicacion h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #ffa600b4;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px black;
+}
+.ubicacion p{
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+/*Inicio de Footer*/
+footer{
+    background-color: rgba(34, 34, 34, 0.993);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-footer{
+    width: 300px;
+    margin: 0 30px 0px 0;
+}
+
+.iconos-footer{
+    font-size: 60px;
+    color: white;
+    margin: 30px 20px;
+    letter-spacing: 20px;
+    transition: all 0.7s;
+}
+.iconos-footer:hover{
+    color: #ec731e;
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: all 0.7s;
+}
+
+footer p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+/*fin de Footer*/
+
+
+
