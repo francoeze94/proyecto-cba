@@ -1,3 +1,5 @@
+/*Declarando mi mapa*/
+/*Agregando Mixins*/
 body {
   font-family: "Ibarra Real Nova", serif;
 }
@@ -22,12 +24,12 @@ header .navbar-nav a {
 }
 header .iconos-redes {
   font-size: 30px;
-  color: white;
+  color: #ec731e;
   margin: 10px 10px;
   transition: all 0.7s;
 }
 header .iconos-redes:hover {
-  color: #ec731e;
+  color: white;
   cursor: pointer;
   transform: translateY(-10px);
   transition: all 0.7s;
@@ -48,7 +50,7 @@ header .iconos-redes:hover {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
 }
 .carousel-inner .carousel-caption h1 {
@@ -68,7 +70,7 @@ header .iconos-redes:hover {
   background-color: rgba(255, 165, 0, 0.4);
 }
 .carousel-inner .carousel-caption .boton-carrusel {
-  color: #f8f9fa;
+  color: white;
   background-color: rgba(255, 165, 0, 0);
   border-color: #f8f9fa;
   border: 3px solid white;
@@ -100,11 +102,16 @@ header .iconos-redes:hover {
 .galery a {
   color: white;
   background-color: orange;
-  border: 2px solid black;
-  border-radius: 20px;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 25px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.galery a:hover {
+  background-color: black;
+  color: orange;
+  border: 2px solid orange;
 }
 
 /*Nosotros*/
@@ -142,6 +149,7 @@ header .iconos-redes:hover {
   font-size: 27px;
   padding: 10px;
   margin-top: 30px;
+  color: black;
 }
 .nosotros .nosotros-menu .imagen-quienes {
   border: 3px solid orange;
@@ -163,12 +171,13 @@ header .iconos-redes:hover {
   background-color: rgba(255, 255, 255, 0.356);
   text-shadow: 0 0 5px black;
 }
-.catalogo .titulo-catalogo {
+.catalogo .titulo-catalogo, .catalogo h4, .catalogo h3 {
   text-align: center;
   text-transform: capitalize;
   font-size: 50px;
   background-color: rgba(255, 166, 0, 0.7058823529);
   text-shadow: 0 0 5px black;
+  color: black;
 }
 .catalogo .imagen-catalogo {
   border: 3px solid orange;
@@ -187,11 +196,16 @@ header .iconos-redes:hover {
   margin-top: 25px;
   color: white;
   background-color: orange;
-  border: 2px solid black;
-  border-radius: 20px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 22px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.catalogo .boton-catalogo a:hover {
+  background-color: black;
+  color: orange;
+  border: 2px solid orange;
 }
 
 /*Galeria*/
@@ -215,6 +229,7 @@ header .iconos-redes:hover {
   font-size: 50px;
   background-color: rgba(255, 166, 0, 0.7058823529);
   text-shadow: 0 0 5px black;
+  color: black;
 }
 .galeria .imagen-galeria {
   border: 3px solid orange;
@@ -230,7 +245,7 @@ header .iconos-redes:hover {
 /*Contacto*/
 .informacion .cabecera-contacto {
   padding: 134px 0 240px 0;
-  background-image: url(../img/7.jpeg);
+  background-image: url(../img/7.jpg);
   background-position: center;
   background-size: cover;
   margin-top: 30px;
@@ -270,6 +285,7 @@ header .iconos-redes:hover {
   background-color: rgba(255, 166, 0, 0.7058823529);
   margin-bottom: 25px;
   text-shadow: 0 0 5px black;
+  color: black;
 }
 .informacion .ubicacion p {
   font-size: 30px;
@@ -288,13 +304,13 @@ footer .logo-footer {
 }
 footer .iconos-footer {
   font-size: 60px;
-  color: white;
+  color: #ec731e;
   margin: 30px 20px;
   letter-spacing: 20px;
   transition: all 0.7s;
 }
 footer .iconos-footer:hover {
-  color: #ec731e;
+  color: white;
   cursor: pointer;
   transform: translateY(-20px);
   transition: all 0.7s;
